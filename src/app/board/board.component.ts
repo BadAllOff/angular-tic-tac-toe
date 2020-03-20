@@ -37,7 +37,6 @@ export class BoardComponent implements OnInit {
     this.winner = this.calculateWinner();
   }
 
-  /** complex method */
   calculateWinner(){
     const lines = [
       [0,1,2],
@@ -47,7 +46,7 @@ export class BoardComponent implements OnInit {
       [1,4,7],
       [2,5,8],
       [0,4,8],
-      [2,4,8]
+      [2,4,6]
     ];
 
     for (let i = 0; i < lines.length; i++) {
