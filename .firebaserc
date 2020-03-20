@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "tik-tak-toe-20-03-20": {
+      "hosting": {
+        "tik-tak-toe": [
+          "tik-tak-toe-20-03-20"
+        ]
+      }
+    }
+  }
+}
